@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(to right,#590a0a,#cf3c3c,#7a0b1d,#961818,#cf3c3c,#4d0915);
+  text-align:center;
+}
+li{
+  list-style: none;
+}
+.blog{
+  /* background-image: url(https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); */
+  background-color:rgb(245, 216, 92);
+  height: 600px;
+  width:80%;
+  margin:6% 9%;
+  border-radius: 20px;
+  overflow: scroll;
+  text-align: left;
+}
+.blog::-webkit-scrollbar{
+  display:inherit;
+}
+.text{
+  margin:10px;
+}

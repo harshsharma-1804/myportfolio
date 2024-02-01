@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script&family=Libre+Baskerville&family=Lora&family=PT+Serif&display=swap'); */
+
+.bimg{
+    width: 100%;
+}
+
+/* ------------------------------------------------- */
+.about-above{
+    position: absolute;
+    top:10%;
+    margin: auto 50px;
+    z-index: 1;
+}
+
+.name{
+    color:white;
+    font-family:'Dancing Script', cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    padding-top: 15%;
+}
+
+.subname{
+    color:white;
+    font-family:'Libre Baskerville', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 10%;
+    
+}
+
+/* ------------------------------------------------ */
+.about-below{
+    border-radius: 80px 80px 40px 40px;
+    background-color: red;
+    width: 80%;
+    height:400px;
+    margin: 0px auto;
+    color: #020318;
+    position: relative;
+    
+}
+
+.cimg{
+    height: 400px;
+    width: 100%;
+    border-radius: 80px 80px 40px 40px;
+}
+
+/* ----------------------------------------------- */
+
+.about-below-inner{
+    position:absolute;
+    top:10%;
+    left:5%;
+    margin-right: 4%;
+
+}
+
+.about-heading{
+    margin:10px 20px;
+} 
+.about-content{
+    margin: 10px 20px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+/* ---------------------------------------------media screen----------------------------------------------------- */
+@media screen and (max-width: 980px) {
+    .name{
+        font-size: 3rem;
+    }
+    
+    .subname{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .name{
+        font-size: 2rem;
+    }
+    
+    .subname{
+        font-size: 1rem;
+    }
+}

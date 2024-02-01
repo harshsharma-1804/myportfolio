@@ -1,0 +1,20 @@
+#skills{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skills-heading{
+    padding-left: 3%;
+    font-size: 2rem;
+}
+
+.resumediv{
+    margin-left: auto;
+    width: 80%;
+    height: 800px;
+}
+.resume{
+    border-radius: 40px;
+    width: 72%;
+    height: 100%;
+}

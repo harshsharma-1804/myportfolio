@@ -1,0 +1,69 @@
+@import url('css/header.css');
+@import url('css/main.css');
+@import url('css/about.css');
+@import url('css/footer.css');
+@import url('css/fonts.css');
+@import url('css/card.css');
+@import url('css/skills.css');
+/* ------------------------------------------------------- */
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #85cab6;
+}
+
+/* ::-webkit-scrollbar-track{
+    width:6px;
+    background: #85cab6;
+} */
+
+/* ::-webkit-scrollbar-button:single-button {
+    background-color:rgb(8, 0, 84);
+    height: 16px;
+    width: 10px;
+} */
+::-webkit-scrollbar-thumb {
+    background: #020318;
+    /* border: solid 2px red ; */
+    /* border-radius: 10px; */
+}
+/* ------------------------------------------------------- */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "pt serif", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}

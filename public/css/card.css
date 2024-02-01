@@ -1,0 +1,14 @@
+.content-card{
+    border: solid green 1px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 95%;
+    margin: 0px auto;
+    color: #020318;
+    height: 400px;
+}
+
+.about-below-innner{
+    display: inline-flex;
+    justify-content: right;
+}

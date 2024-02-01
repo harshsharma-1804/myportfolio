@@ -1,0 +1,22 @@
+#footer{
+    background-color: #85cab6;
+    align-items: center;
+}
+
+.footer-inner{
+    width: fit-content;  
+    margin: 0 auto;
+}
+
+img.socialIcon {
+    margin: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+p.small {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #020318;
+}

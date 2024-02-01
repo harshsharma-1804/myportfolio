@@ -1,4 +1,4 @@
-import resume from "../resources/AResume(HVS)-SDE_1.4.pdf";
+
 export default function Skills(){
     return(
         <div id="skills">
@@ -9,4 +9,4 @@ export default function Skills(){
         </div>
         </div>
     );
-};
+}
